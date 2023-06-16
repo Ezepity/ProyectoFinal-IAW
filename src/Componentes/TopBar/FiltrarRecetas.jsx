@@ -16,7 +16,7 @@ function FiltrarRecetas() {
   
 
 //////////////////////////////////////
-//PROBANDO FILTRAR RECETAS POR TEXTO//
+//////FILTRAR RECETAS POR TEXTO///////
 //////////////////////////////////////
 
 useEffect(() => {

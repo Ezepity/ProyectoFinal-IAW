@@ -13,7 +13,6 @@ import TextField from "@material-ui/core/TextField";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { db } from "../../services/firebase";
-
 import XMLParser from "react-xml-parser";
 
 import styles from "./topbar.module.css";
@@ -79,13 +78,10 @@ export default function TopBar() {
 
   const classes = useStyles();
   const [itemsCategorias, setItemsCategorias] = useState([]);
-  const [ciudadDeUsuario, setCiudadDeUsuario] = useState();
   const [ciudadIngresada, setCiudadIngresada] = useState();
   const [itemsRecetas, setItemsRecetas] = useState([]);
-  const txt = null;
   const [checked, setChecked] = React.useState([0]);
   const [value, setValue] = React.useState(null);
-  //const [idBusqueda, setIdBusqueda] = React.useState(null);
   const [title, setTitle] = React.useState(null);
   const [err, setErr] = useState(null);
 
@@ -182,7 +178,6 @@ export default function TopBar() {
                   onInputChange={(event, newValue) => {
                     if (newValue) {
                       setCiudadIngresada(newValue);
-                      //setIdBusqueda(newValue.idBusqueda);
                       setTitle(newValue.title);
                     }
                     

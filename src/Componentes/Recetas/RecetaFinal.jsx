@@ -67,7 +67,6 @@ function RecetaFinal() {
                   </Typography>
                   <Typography gutterBottom component="h3">
                     <br />
-                    {/* <b>Nombre categoria:</b> <NombreCategoria idCatRec={it.id_categoria}></NombreCategoria> */}
                     <h2>Categoria: {item.categoria}</h2>
                   </Typography>
                   <Typography componen="h4" /* variant="body3" */ color="textSecondary" component="p">

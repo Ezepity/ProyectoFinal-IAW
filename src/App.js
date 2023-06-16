@@ -7,7 +7,6 @@ import Home from "./Home";
 import FiltrarRecetas from "./Componentes/TopBar/FiltrarRecetas";
 import ImagenLogo from "./Componentes/Imagenes/ImagenLogo";
 
-//añado axios para clima
 import React, { useState } from "react";
 import axios from "axios";
 import obtenerClima from "./utils/clima";
