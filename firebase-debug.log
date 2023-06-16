@@ -1,0 +1,52 @@
+[debug] [2023-05-15T04:18:23.022Z] ----------------------------------------------------------------------
+[debug] [2023-05-15T04:18:23.024Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ezepi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-15T04:18:23.024Z] CLI Version:   11.30.0
+[debug] [2023-05-15T04:18:23.024Z] Platform:      win32
+[debug] [2023-05-15T04:18:23.024Z] Node Version:  v18.12.1
+[debug] [2023-05-15T04:18:23.029Z] Time:          Mon May 15 2023 01:18:23 GMT-0300 (hora estándar de Argentina)
+[debug] [2023-05-15T04:18:23.029Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-15T04:18:23.034Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-15T04:18:23.142Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-15T04:18:23.142Z] > authorizing via signed-in user (ezepity_10reloaded@hotmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ezepi\Downloads\UNS 2022\IAW 2023\Proyecto-Final-IAW\ezepity-javascript
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2023-05-15T04:18:23.544Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-05-15T04:18:23.544Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-15T04:19:07.653Z] Using project from CLI flag: proyecto-final-iaw-75ff4
+[debug] [2023-05-15T04:19:07.654Z] > refreshing access token with scopes: []
+[debug] [2023-05-15T04:19:07.655Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-15T04:19:07.655Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-15T04:19:07.824Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-05-15T04:19:07.824Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-15T04:19:07.830Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-final-iaw-75ff4 [none]
+[debug] [2023-05-15T04:19:08.232Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-final-iaw-75ff4 200
+[debug] [2023-05-15T04:19:08.232Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-final-iaw-75ff4 {"projectId":"proyecto-final-iaw-75ff4","projectNumber":"32752527903","displayName":"Proyecto Final IAW","name":"projects/proyecto-final-iaw-75ff4","resources":{"hostingSite":"proyecto-final-iaw-75ff4"},"state":"ACTIVE","etag":"1_0bf6aec7-2d7a-4f51-b5ab-939ad1bf0b4a"}
+[info] i  Using project proyecto-final-iaw-75ff4 (Proyecto Final IAW) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
